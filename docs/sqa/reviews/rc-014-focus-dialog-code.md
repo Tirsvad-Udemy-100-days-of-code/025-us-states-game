@@ -9,7 +9,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-13 | Proposed | Claude (AI) for S01 | AI as stand-in for S01 | Initial review record: Go | pending |
+| 2026-10-13 | Proposed | Claude (AI) for S01 | AI as stand-in for S01 | Initial review record: Go | [0291b12] |
 
 ---
 
@@ -58,3 +58,4 @@ Go - set by the AI as stand-in for S01, at S01's instruction in chat, after the 
 ---
 
 [QC-PY-001]: ../../../framework/qc/code/qc-programming-python.md
+[0291b12]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-us-states-game/commit/0291b128845bb9a731465afbc1681809f7ba1687
