@@ -2,7 +2,11 @@
 
 A quiz game from Udemy's *100 Days of Code: The Complete Python Pro Bootcamp* (day 25): a Turtle window shows a blank map of the United States, you type state names, and every correct guess appears on the map. When you leave, the states you missed are saved to `states_to_learn.csv`.
 
-> **Status:** under construction. The tooling and layout are in place; the game logic and the Turtle screen follow in the next milestones.
+![The blank map with the prompt at 0/50 states](docs/images/game-start.png)
+
+![A game in progress: 14 of 50 states named](docs/images/game-in-progress.png)
+
+This is a solution for course participants to compare with their own: the code keeps the assignment's names (`screen`, `guessed_states`, `missing_states`, `get_mouse_click_coor`, `states_to_learn.csv`). It reads the CSV with the standard library, so the game has no runtime dependencies. The wiki has the same instructions in English, Danish and Bahasa Malaysia.
 
 ## Requirements
 
@@ -60,7 +64,15 @@ With the virtual environment active:
 python -m us_states_game
 ```
 
-Type a state name in the prompt. Type `exit` to quit; the states you did not name are written to `states_to_learn.csv` in the current folder.
+Type a state name in the prompt; case does not matter. The title of the prompt shows how many states you have named. Type `exit` (or press Cancel) to quit; the states you did not name are written to `states_to_learn.csv` in the current folder.
+
+To print the coordinates of every mouse click on the map (lecture 1), add `--show-coordinates`:
+
+```bash
+python -m us_states_game --show-coordinates
+```
+
+The game can also be started with `python src/us_states_game/main.py`.
 
 ## Run the tests
 
@@ -88,9 +100,11 @@ Open `docs/build/doxygen/index.html` in a browser.
 
 | Path | What it is |
 | --- | --- |
-| `src/us_states_game/` | The game package: constants, game logic and the Turtle screen |
+| `src/us_states_game/` | The game package: `constants.py`, `states.py` (rules), `storage.py` (CSV), `game.py` (guess loop), `turtle_screen.py` (Turtle), `main.py` (entry point) |
 | `src/us_states_game/data/` | `50_states.csv` and `blank_states_img.gif` from the course |
-| `tests/` | pytest tests |
+| `tests/` | pytest tests; they need no display |
+| `wiki/` | The wiki pages in English (`*.md`), Danish (`*.da.md`) and Bahasa Malaysia (`*.ms.md`) |
+| `docs/images/` | Screenshots used by the README and the wiki |
 | `docs/` | Project documents: business case, plan, milestones, review records |
 | `Doxyfile` | Doxygen configuration |
 | `pyproject.toml` | Project configuration |
