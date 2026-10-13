@@ -11,7 +11,8 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-13 | Accepted | Claude (AI) for S01 | AI as stand-in for S01 | Initial version; review RC-006: Go | [b113e6e] |
+| 2026-10-13 | Deprecated | Claude (AI) for S01 | AI as stand-in for S01 | Initial version; review RC-006: Go | [b113e6e] |
+| 2026-10-13 | Accepted | Claude (AI) for S01 | AI as stand-in for S01 | Criterion 1 follows the README template S01 gave in the request, not the framework README template, so `check-readme.sh` cannot pass; review RC-011: Go | pending |
 
 ---
 
@@ -27,7 +28,7 @@ Completed README with screenshots, Doxygen comments verified and buildable, wiki
 
 | # | Criterion (objectively checkable) | Go | No-Go |
 | --- | --- | --- | --- |
-| 1 | `framework/scripts/check-readme.sh` passes | Met | Not met |
+| 1 | `README.md` has every section of the README template S01 gave (Requirements, Set up with Windows powershell, Linux debian and MacOS, Run, Run the tests, Continuous integration, Build the source documentation, Project layout, License) in that order, and no placeholder text | Met | Not met |
 | 2 | `doxygen Doxyfile` builds without warnings about undocumented public functions | Met | Not met |
 | 3 | The wiki has `Home`, `Install` and `Description` pages in `en`, `da` and `ms` and a `_Sidebar.md` | Met | Not met |
 | 4 | README and wiki embed at least 2 screenshots of the running game | Met | Not met |
