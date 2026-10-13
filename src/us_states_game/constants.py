@@ -37,3 +37,25 @@ NUMBER_OF_STATES = 50
 
 ## Text the player types to leave the game early.
 EXIT_COMMAND = "exit"
+
+## Title shown while playing; filled with the guessed count and the total.
+TITLE_FORMAT = "{guessed}/{total} States Correct"
+
+## Prompt of the answer dialog.
+ANSWER_PROMPT = "What's another state's name?"
+
+## Name under which the map image is registered as a Turtle shape.
+MAP_SHAPE_NAME = str(MAP_IMAGE_PATH)
+
+## Size in pixels of the map image, and so of the game window.
+SCREEN_WIDTH = 725
+SCREEN_HEIGHT = 491
+
+## Font of the state names written on the map: family, size and style.
+STATE_FONT = ("Courier", 8, "normal")
+
+## Alignment of a state name written at its coordinates.
+STATE_ALIGNMENT = "center"
+
+## Name of the logger that reports mouse click coordinates.
+LOGGER_NAME = "us_states_game"
