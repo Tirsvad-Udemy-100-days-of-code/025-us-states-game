@@ -11,7 +11,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-13 | Accepted | Claude (AI) for S01 | S01 | Initial version; accepted by S01 in chat as part of the plan | pending |
+| 2026-10-13 | Accepted | Claude (AI) for S01 | S01 | Initial version; accepted by S01 in chat as part of the plan | [b113e6e] |
 
 ---
 
@@ -85,3 +85,4 @@ A No-Go stops later phases until its criteria are met; all dates shift together.
 [MIL-002]: ./milestones/mil-002-game-core.md
 [MIL-003]: ./milestones/mil-003-turtle-game.md
 [MIL-004]: ./milestones/mil-004-docs-release.md
+[b113e6e]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-us-states-game/commit/b113e6eacd12bb08045ecf6f7822837626a7b1f7

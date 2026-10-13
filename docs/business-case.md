@@ -11,7 +11,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-13 | Accepted | Claude (AI) for S01 | AI as stand-in for S01 | Initial version; review RC-001: Go | pending |
+| 2026-10-13 | Accepted | Claude (AI) for S01 | AI as stand-in for S01 | Initial version; review RC-001: Go | [b113e6e] |
 
 ---
 
@@ -125,3 +125,7 @@ Supports the author's course progress in the 100 Days of Code bootcamp and the h
 ## Recommendation
 
 Proceed — the scope is small, fully specified by the lectures, and low risk.
+
+---
+
+[b113e6e]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-us-states-game/commit/b113e6eacd12bb08045ecf6f7822837626a7b1f7
