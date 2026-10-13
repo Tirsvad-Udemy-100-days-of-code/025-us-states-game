@@ -9,7 +9,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-13 | Accepted | Claude (AI) for S01 | AI as stand-in for S01 | Initial version; review RC-008: Go | pending |
+| 2026-10-13 | Accepted | Claude (AI) for S01 | AI as stand-in for S01 | Initial version; review RC-008: Go | [bb8730c] |
 
 Allowed Status values: `Proposed`, `Accepted`, `Rejected`, `Deprecated`, `Superseded by ADR-NNNN`.
 
@@ -49,3 +49,4 @@ Read and write the CSV files with the standard library `csv` module, and keep th
 
 [BC-001]: ../business-case.md
 [SA-001]: ../stakeholder-analysis.md
+[bb8730c]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-us-states-game/commit/bb8730c30761f885491abeb764690e0b53d2459b

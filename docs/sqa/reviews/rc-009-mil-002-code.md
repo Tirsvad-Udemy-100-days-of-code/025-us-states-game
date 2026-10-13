@@ -9,7 +9,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-13 | Proposed | Claude (AI) for S01 | AI as stand-in for S01 | Initial review record: Go | pending |
+| 2026-10-13 | Proposed | Claude (AI) for S01 | AI as stand-in for S01 | Initial review record: Go | [bb8730c] |
 
 ---
 
@@ -58,3 +58,4 @@ Go - Mandatory criteria pass for states.py, storage.py and their tests (ruff, my
 ---
 
 [QC-PY-001]: ../../../framework/qc/code/qc-programming-python.md
+[bb8730c]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-us-states-game/commit/bb8730c30761f885491abeb764690e0b53d2459b
