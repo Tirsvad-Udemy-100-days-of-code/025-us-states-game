@@ -11,8 +11,8 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-13 | Deprecated | Claude (AI) for S01 | AI as stand-in for S01 | Initial version; review RC-005: Go | [b113e6e] |
-| 2026-10-13 | Accepted | Claude (AI) for S01 | AI as stand-in for S01 | Task 7 added: CI found that importing turtle needs a Tk library the runner lacks; review RC-013: Go | [172778d] |
+| 2026-10-13 | Deprecated | Claude (AI) for S01 | AI as stand-in for S01 | Task 7 added: CI found that importing turtle needs a Tk library the runner lacks; review RC-013: Go | [172778d] |
+| 2026-10-13 | Accepted | Claude (AI) for S01 | AI as stand-in for S01 | Task 8 added: the answer dialog lost keyboard focus after a wrong answer; review RC-015: Go | [0291b12] |
 
 ---
 
@@ -69,9 +69,10 @@ A runnable `main.py` entry point that plays the full game with Turtle, built on 
 | 5 | Add UI test with a fake screen | Inject a fake screen and prompt into the loop to verify the flow without a display. | No | |
 | 6 | Run the game manually | Run the real game once and note the result in the milestone review. | No | |
 | 7 | Import turtle lazily so tests run without a Tk library | CI on the runner failed at test collection because `import turtle` needs `libtk8.6`. Import `turtle` when `TurtleScreen` is created, so importing the program and running its tests need no Tk library. Found after the first merge of this milestone. | No | |
+| 8 | Keep keyboard focus in the answer dialog | After a wrong answer the reopened dialog had no keyboard focus, so the player had to click it. Lift the dialog and force focus onto it and its entry each time it opens. Found by S01 in manual play. | No | |
 
 ---
 
 [BC-001]: ../business-case.md
-[b113e6e]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-us-states-game/commit/b113e6eacd12bb08045ecf6f7822837626a7b1f7
 [172778d]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-us-states-game/commit/172778d22b7d78fe91eb91b145055289c87ac208
+[0291b12]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-us-states-game/commit/0291b128845bb9a731465afbc1681809f7ba1687
