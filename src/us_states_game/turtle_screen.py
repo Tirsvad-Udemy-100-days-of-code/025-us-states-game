@@ -1,11 +1,13 @@
 """Turtle implementation of the game screen.
 
 @file turtle_screen.py
-@brief The only module that imports turtle; draws the map and asks questions.
+@brief The only module that uses turtle; draws the map and asks questions.
+
+turtle is imported when `TurtleScreen` is created, not when this module is
+imported, so the rest of the program and its tests need no Tk library.
 """
 
 import logging
-import turtle
 
 from us_states_game.constants import (
     LOGGER_NAME,
@@ -34,7 +36,12 @@ class TurtleScreen:
     """Game screen drawn with Turtle graphics; implements `GameScreen`."""
 
     def __init__(self) -> None:
-        """Open the window with the blank map."""
+        """Open the window with the blank map.
+
+        turtle (and so Tk) is imported here, at runtime.
+        """
+        import turtle  # noqa: PLC0415  # deferred: Tk may be missing at import time
+
         self.screen = turtle.Screen()
         self.screen.setup(SCREEN_WIDTH, SCREEN_HEIGHT)
         self.screen.title(SCREEN_TITLE)
