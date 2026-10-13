@@ -1,0 +1,22 @@
+# Doxygen configuration for the U.S. States Game.
+# Build:  doxygen Doxyfile
+# Output: docs/build/doxygen/index.html
+PROJECT_NAME           = "U.S. States Game"
+PROJECT_BRIEF          = "Name the 50 states on a Turtle map"
+OUTPUT_DIRECTORY       = docs/build
+HTML_OUTPUT            = doxygen
+INPUT                  = src
+FILE_PATTERNS          = *.py
+RECURSIVE              = YES
+EXCLUDE_PATTERNS       = */__pycache__/* */data/*
+OPTIMIZE_OUTPUT_JAVA   = YES
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = YES
+JAVADOC_AUTOBRIEF      = YES
+GENERATE_HTML          = YES
+GENERATE_LATEX         = NO
+HAVE_DOT               = NO
+QUIET                  = YES
+WARN_IF_UNDOCUMENTED   = YES
+WARN_IF_DOC_ERROR      = YES
+WARN_NO_PARAMDOC       = YES

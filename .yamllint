@@ -1,0 +1,8 @@
+# yamllint configuration for the workflow files under .gitea/workflows/.
+---
+extends: default
+rules:
+  truthy:
+    allowed-values: ["true", "false", "on"]
+  line-length:
+    max: 100
