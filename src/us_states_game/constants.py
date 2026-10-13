@@ -59,3 +59,12 @@ STATE_ALIGNMENT = "center"
 
 ## Name of the logger that reports mouse click coordinates.
 LOGGER_NAME = "us_states_game"
+
+## Delay in ms before the answer dialog is given the keyboard focus.
+DIALOG_FOCUS_DELAY_MS = 50
+
+## Tk class of the answer dialog window.
+DIALOG_TOPLEVEL_CLASS = "Toplevel"
+
+## Tk classes of a text entry (tkinter `Entry` and ttk `TEntry`).
+DIALOG_ENTRY_CLASSES = ("Entry", "TEntry")
