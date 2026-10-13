@@ -89,3 +89,16 @@ def test_game_and_states_modules_do_not_import_turtle() -> None:
     )
     result = subprocess.run([sys.executable, "-c", code], check=False)
     assert result.returncode == 0
+
+
+def test_main_imports_without_tk_library() -> None:
+    src = Path(__file__).resolve().parent.parent / "src"
+    code = (
+        "import sys; "
+        "sys.modules['tkinter'] = None; sys.modules['_tkinter'] = None; "
+        f"sys.path.insert(0, {str(src)!r}); "
+        "import us_states_game.main, us_states_game.turtle_screen; "
+        "sys.exit(1 if 'turtle' in sys.modules else 0)"
+    )
+    result = subprocess.run([sys.executable, "-I", "-c", code], check=False)
+    assert result.returncode == 0
