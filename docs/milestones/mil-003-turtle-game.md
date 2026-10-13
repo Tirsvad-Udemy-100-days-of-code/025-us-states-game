@@ -11,7 +11,8 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-13 | Accepted | Claude (AI) for S01 | AI as stand-in for S01 | Initial version; review RC-005: Go | [b113e6e] |
+| 2026-10-13 | Deprecated | Claude (AI) for S01 | AI as stand-in for S01 | Initial version; review RC-005: Go | [b113e6e] |
+| 2026-10-13 | Accepted | Claude (AI) for S01 | AI as stand-in for S01 | Task 7 added: CI found that importing turtle needs a Tk library the runner lacks; review RC-013: Go | pending |
 
 ---
 
@@ -67,6 +68,7 @@ A runnable `main.py` entry point that plays the full game with Turtle, built on 
 | 4 | Add the entry point | `main.py` wires screen, loop and the learning-file export so `python main.py` runs the game after setup. | No | |
 | 5 | Add UI test with a fake screen | Inject a fake screen and prompt into the loop to verify the flow without a display. | No | |
 | 6 | Run the game manually | Run the real game once and note the result in the milestone review. | No | |
+| 7 | Import turtle lazily so tests run without a Tk library | CI on the runner failed at test collection because `import turtle` needs `libtk8.6`. Import `turtle` when `TurtleScreen` is created, so importing the program and running its tests need no Tk library. Found after the first merge of this milestone. | No | |
 
 ---
 
