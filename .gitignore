@@ -1,0 +1,42 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Packaging and build
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Test, coverage and tool caches
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.mypy_cache/
+.ruff_cache/
+
+# Generated source documentation (Doxygen)
+docs/build/
+
+# Local credentials, never committed
+.env
+
+# Game output written to the working directory
+states_to_learn.csv
+
+# Editors and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
