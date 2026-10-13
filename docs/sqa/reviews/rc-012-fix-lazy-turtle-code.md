@@ -9,7 +9,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-13 | Proposed | Claude (AI) for S01 | AI as stand-in for S01 | Initial review record: Go | pending |
+| 2026-10-13 | Proposed | Claude (AI) for S01 | AI as stand-in for S01 | Initial review record: Go | [172778d] |
 
 ---
 
@@ -58,3 +58,4 @@ Go - Fix review: turtle is imported lazily so CI without a Tk library passes. Ma
 ---
 
 [QC-PY-001]: ../../../framework/qc/code/qc-programming-python.md
+[172778d]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-us-states-game/commit/172778d22b7d78fe91eb91b145055289c87ac208
