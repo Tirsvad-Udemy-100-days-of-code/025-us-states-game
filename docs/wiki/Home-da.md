@@ -1,4 +1,4 @@
-[English](Home) | **Dansk** | [Bahasa Melayu](Home.ms)
+[English](Home) · **Dansk** · [Bahasa Melayu](Home-ms)
 
 # U.S. States Game
 
@@ -17,9 +17,10 @@ Et quizspil fra Udemys *100 Days of Code* (dag 25): navngiv de 50 delstater på 
 
 ## Sider
 
-| Page | |
+| Side | |
 | --- | --- |
-| [Installation](Install.da) | Sæt projektet op på Windows, Linux Debian eller MacOS og kør det |
-| [Beskrivelse](Description.da) | Hvordan spillet og koden virker: regler, moduler, tests, CI og kildedokumentation |
+| [Installation](Install-da) | Sæt projektet op på Windows, Linux Debian eller MacOS og kør det |
+| [Beskrivelse](Description-da) | Hvordan spillet og koden virker: regler, moduler, tests, CI og kildedokumentation |
+| [Projektdokumenter](Project-Documents-da) | Se projektets plan- og gennemgangsdokumenter |
 
 [Repository](https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-us-states-game)

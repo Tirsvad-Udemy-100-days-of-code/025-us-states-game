@@ -1,4 +1,4 @@
-[English](Home) | [Dansk](Home.da) | **Bahasa Melayu**
+[English](Home) · [Dansk](Home-da) · **Bahasa Melayu**
 
 # U.S. States Game
 
@@ -17,9 +17,10 @@ Permainan kuiz daripada *100 Days of Code* Udemy (hari 25): namakan 50 negeri di
 
 ## Halaman
 
-| Page | |
+| Halaman | |
 | --- | --- |
-| [Pemasangan](Install.ms) | Sediakan projek pada Windows, Linux Debian atau MacOS dan jalankannya |
-| [Penerangan](Description.ms) | Cara permainan dan kod berfungsi: peraturan, modul, ujian, CI dan dokumentasi sumber |
+| [Pemasangan](Install-ms) | Sediakan projek pada Windows, Linux Debian atau MacOS dan jalankannya |
+| [Penerangan](Description-ms) | Cara permainan dan kod berfungsi: peraturan, modul, ujian, CI dan dokumentasi sumber |
+| [Dokumen Projek](Project-Documents-ms) | Lihat dokumen perancangan dan semakan projek |
 
 [Repositori](https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-us-states-game)

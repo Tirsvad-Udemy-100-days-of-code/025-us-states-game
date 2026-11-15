@@ -1,14 +1,14 @@
-[English](Install) | [Dansk](Install.da) | **Bahasa Melayu**
+[English](Install) · **Dansk** · [Bahasa Melayu](Install-ms)
 
-# Pemasangan
+# Installation
 
-Cipta persekitaran maya tempatan bernama `.venv`, naik taraf `pip` dan pasang projek dengan alat ujiannya.
+Opret et lokalt virtuelt miljø med navnet `.venv`, opgradér `pip` og installér projektet med testværktøjet.
 
-## Keperluan
+## Krav
 
-- Python 3.13 atau lebih baharu, dengan `tkinter` (Turtle memerlukannya)
+- Python 3.13 eller nyere, med `tkinter` (Turtle kræver det)
 - `git`
-- Pilihan: Doxygen untuk membina dokumentasi sumber
+- Valgfrit: Doxygen til at bygge kildedokumentationen
 
 ## Windows PowerShell
 
@@ -44,20 +44,20 @@ python -m pip install --upgrade pip
 python -m pip install -e ".[dev]"
 ```
 
-## Jalankan
+## Kør
 
 ```bash
 python -m us_states_game
 ```
 
-Taip nama negeri pada gesaan; huruf besar atau kecil tidak penting. Taip `exit` (atau tekan Cancel) untuk berhenti. Negeri yang tidak anda namakan ditulis ke `states_to_learn.csv` dalam folder semasa. Tambah `--show-coordinates` untuk mencetak koordinat klik tetikus.
+Skriv et delstatsnavn i prompten; store og små bogstaver er ligegyldige. Skriv `exit` (eller tryk Annuller) for at stoppe. De delstater, du ikke navngav, skrives til `states_to_learn.csv` i den aktuelle mappe. Tilføj `--show-coordinates` for at udskrive koordinaterne for museklik.
 
-![Permainan sedang berjalan: 14 daripada 50 negeri dinamakan](https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-us-states-game/raw/branch/main/docs/images/game-in-progress.png)
+![Et spil i gang: 14 af 50 delstater navngivet](https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-us-states-game/raw/branch/main/docs/images/game-in-progress.png)
 
-## Jalankan ujian
+## Kør testene
 
 ```bash
 python -m pytest
 ```
 
-Ujian tidak memerlukan paparan.
+Testene kræver ingen skærm.

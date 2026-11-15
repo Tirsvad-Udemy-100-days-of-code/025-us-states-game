@@ -6,13 +6,14 @@
 | ID | MIL-003 |
 | CrossReference | [BC-001] |
 | Language | en |
-| Domain | it |
+| Domain | education |
 
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
 | 2026-10-13 | Deprecated | Claude (AI) for S01 | AI as stand-in for S01 | Task 7 added: CI found that importing turtle needs a Tk library the runner lacks; review RC-013: Go | [172778d] |
-| 2026-10-13 | Accepted | Claude (AI) for S01 | AI as stand-in for S01 | Task 8 added: the answer dialog lost keyboard focus after a wrong answer; review RC-015: Go | [0291b12] |
+| 2026-10-13 | Deprecated | Claude (AI) for S01 | AI as stand-in for S01 | Task 8 added: the answer dialog lost keyboard focus after a wrong answer; review RC-015: Go | [0291b12] |
+| 2026-11-15 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Set the domain to education (metadata only; content unchanged); reviewed in autonomous mode, not independent | [a579509] |
 
 ---
 
@@ -76,3 +77,4 @@ A runnable `main.py` entry point that plays the full game with Turtle, built on 
 [BC-001]: ../business-case.md
 [172778d]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-us-states-game/commit/172778d22b7d78fe91eb91b145055289c87ac208
 [0291b12]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-us-states-game/commit/0291b128845bb9a731465afbc1681809f7ba1687
+[a579509]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-us-states-game/commit/a5795093e1d293da9d29fced5cb24621b0a4c5bd
