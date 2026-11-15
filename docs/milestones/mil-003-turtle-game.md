@@ -6,13 +6,14 @@
 | ID | MIL-003 |
 | CrossReference | [BC-001] |
 | Language | en |
-| Domain | it |
+| Domain | education |
 
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
 | 2026-10-13 | Deprecated | Claude (AI) for S01 | AI as stand-in for S01 | Task 7 added: CI found that importing turtle needs a Tk library the runner lacks; review RC-013: Go | [172778d] |
-| 2026-10-13 | Accepted | Claude (AI) for S01 | AI as stand-in for S01 | Task 8 added: the answer dialog lost keyboard focus after a wrong answer; review RC-015: Go | [0291b12] |
+| 2026-10-13 | Deprecated | Claude (AI) for S01 | AI as stand-in for S01 | Task 8 added: the answer dialog lost keyboard focus after a wrong answer; review RC-015: Go | [0291b12] |
+| 2026-11-15 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Set the domain to education (metadata only; content unchanged); reviewed in autonomous mode, not independent | pending |
 
 ---
 

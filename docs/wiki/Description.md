@@ -1,4 +1,4 @@
-**English** | [Dansk](Description.da) | [Bahasa Melayu](Description.ms)
+**English** · [Dansk](Description-da) · [Bahasa Melayu](Description-ms)
 
 # Description
 

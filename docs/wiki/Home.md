@@ -1,4 +1,4 @@
-**English** | [Dansk](Home.da) | [Bahasa Melayu](Home.ms)
+**English** · [Dansk](Home-da) · [Bahasa Melayu](Home-ms)
 
 # U.S. States Game
 
@@ -21,5 +21,6 @@ A quiz game from Udemy's *100 Days of Code* (day 25): name the 50 states on a bl
 | --- | --- |
 | [Install](Install) | Set the project up on Windows, Linux Debian or MacOS and run it |
 | [Description](Description) | How the game and the code work: rules, modules, tests, CI and source documentation |
+| [Project Documents](Project-Documents) | See the planning and review documents of the project |
 
 [Repository](https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-us-states-game)

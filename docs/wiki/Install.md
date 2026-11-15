@@ -1,4 +1,4 @@
-**English** | [Dansk](Install.da) | [Bahasa Melayu](Install.ms)
+**English** · [Dansk](Install-da) · [Bahasa Melayu](Install-ms)
 
 # Install
 

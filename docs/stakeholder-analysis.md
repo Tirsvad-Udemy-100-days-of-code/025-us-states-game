@@ -4,14 +4,15 @@
 | Key | Value |
 | --- | --- |
 | ID | SA-001 |
-| CrossReference | [BC-001] |
+| CrossReference | [BC-001], [MIL-005] |
 | Language | en |
-| Domain | it |
+| Domain | education |
 
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-13 | Accepted | Claude (AI) for S01 | AI as stand-in for S01 | Initial version; review RC-002: Go | [b113e6e] |
+| 2026-10-13 | Deprecated | Claude (AI) for S01 | AI as stand-in for S01 | Initial version; review RC-002: Go | [b113e6e] |
+| 2026-11-15 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Added concern IDs CN-001 to CN-006 (QC-SA-001 criterion 9), the baseline concern CN-007, the baseline milestone in the communication table and a conflict about the stand-in reviewer; set the domain to education; reviewed in autonomous mode, not independent | pending |
 
 ---
 
@@ -35,14 +36,15 @@ Identify who is affected by the U.S. States Game project, who decides and who re
 
 ## Primary Concerns and FURPS+ Mapping
 
-| ID | Concern | FURPS+ attribute |
-| --- | --- | --- |
-| S01 | Game behaves as in the lectures | Functionality |
-| S01 | Work traceable through plan, review and pull requests | Supportability |
-| S02 | Readable code with the assignment's function names | Supportability |
-| S02 | Easy to run from README instructions | Usability |
-| S03 | Clear description, topics, README | Usability |
-| S03 | No runtime dependencies to install | Supportability |
+| Concern ID | Stakeholder | Concern | FURPS+ attribute |
+| --- | --- | --- | --- |
+| CN-001 | S01 | Game behaves as in the lectures | Functionality |
+| CN-002 | S01 | Work traceable through plan, review and pull requests | Supportability |
+| CN-003 | S02 | Readable code with the assignment's function names | Supportability |
+| CN-004 | S02 | Easy to run from README instructions | Usability |
+| CN-005 | S03 | Clear description, topics, README | Usability |
+| CN-006 | S03 | No runtime dependencies to install | Supportability |
+| CN-007 | S01 | The project follows the common baseline of the framework, with the wiki in the framework's location | Supportability |
 
 ## Communication Requirements
 
@@ -51,6 +53,8 @@ Identify who is affected by the U.S. States Game project, who decides and who re
 | S01 | Chat session | At plan acceptance and at the final summary | Plan, review records, run summary | All milestones |
 | S02 | README, wiki (en, da, ms) | Once per release | Run instructions, screenshots | MIL-004 |
 | S03 | Repository description, topics, README | Once per release | Repository surface | MIL-004 |
+| S01 | Pull request on the git host and end-of-run summary in chat | Once, for the baseline milestone | Documents, wiki and review records to read, and the stand-in decisions | [MIL-005] |
+| S02, S03 | Wiki in English, Danish and Malay | Once, updated on change | Wiki pages | [MIL-005] |
 
 ## Conflicting Interests and Mitigations
 
@@ -58,6 +62,7 @@ Identify who is affected by the U.S. States Game project, who decides and who re
 | --- | --- | --- |
 | The assignment uses pandas, but viewers want no runtime dependencies | S02, S03 | Record the choice in an ADR; keep the assignment's function and variable names regardless of the library |
 | Full process documents add weight to a small exercise | S01, S03 | Keep documents short; the repository surface (README, wiki) stays the first thing viewers see |
+| The documents of the baseline milestone are accepted by an AI stand-in for S01, so that review is not independent | S01 | S01 authorised the stand-in for the baseline milestone only; every review record says `Mode: autonomous, not independent`, and the end-of-run summary lists each stand-in decision so that S01 can challenge it |
 
 ## Traceability Analysis
 
@@ -65,10 +70,12 @@ Identify who is affected by the U.S. States Game project, who decides and who re
 
 | Stakeholder | Concern | Business Case objective |
 | --- | --- | --- |
-| S01 | Correct game | [BC-001] Objectives 1, 3 |
-| S01 | Process and traceability | [BC-001] Objective 4 |
-| S02 | Comparable, runnable code | [BC-001] Objectives 1, 2 |
-| S03 | Clear repository surface | [BC-001] Objective 4 |
+| S01 | Correct game (CN-001) | [BC-001] Objectives 1, 3 |
+| S01 | Process and traceability (CN-002) | [BC-001] Objective 4 |
+| S02 | Comparable, runnable code (CN-003, CN-004) | [BC-001] Objectives 1, 2 |
+| S03 | Clear repository surface (CN-005) | [BC-001] Objective 4 |
+| S03 | No runtime dependencies to install (CN-006) | [BC-001] Success Criterion 6 |
+| S01 | The project follows the common baseline of the framework (CN-007) | [BC-001] Objective 5 |
 
 ## Sign-Off
 
@@ -76,7 +83,10 @@ Identify who is affected by the U.S. States Game project, who decides and who re
 | --- | --- | --- | --- |
 | Product Owner | S01 | 2026-10-13 | Accepted in chat as part of the plan; reviewed by AI as stand-in for S01 (RC-002) |
 
+The changes of the baseline milestone were accepted by the AI stand-in for S01 after the review record of this document (Go), autonomous, not independent.
+
 ---
 
 [BC-001]: ./business-case.md
 [b113e6e]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-us-states-game/commit/b113e6eacd12bb08045ecf6f7822837626a7b1f7
+[MIL-005]: ./milestones/mil-005-framework-baseline.md

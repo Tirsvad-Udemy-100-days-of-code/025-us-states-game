@@ -6,13 +6,14 @@
 | ID | MIL-004 |
 | CrossReference | [BC-001] |
 | Language | en |
-| Domain | it |
+| Domain | education |
 
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
 | 2026-10-13 | Deprecated | Claude (AI) for S01 | AI as stand-in for S01 | Initial version; review RC-006: Go | [b113e6e] |
-| 2026-10-13 | Accepted | Claude (AI) for S01 | AI as stand-in for S01 | Criterion 1 follows the README template S01 gave in the request, not the framework README template, so `check-readme.sh` cannot pass; review RC-011: Go | [f3d740c] |
+| 2026-10-13 | Deprecated | Claude (AI) for S01 | AI as stand-in for S01 | Criterion 1 follows the README template S01 gave in the request, not the framework README template, so `check-readme.sh` cannot pass; review RC-011: Go | [f3d740c] |
+| 2026-11-15 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Set the domain to education (metadata only; content unchanged); reviewed in autonomous mode, not independent | pending |
 
 ---
 

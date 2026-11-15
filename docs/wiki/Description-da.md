@@ -1,4 +1,4 @@
-[English](Description) | **Dansk** | [Bahasa Melayu](Description.ms)
+[English](Description) · **Dansk** · [Bahasa Melayu](Description-ms)
 
 # Beskrivelse
 
