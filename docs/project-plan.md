@@ -12,7 +12,7 @@
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
 | 2026-10-13 | Deprecated | Claude (AI) for S01 | S01 | Initial version; accepted by S01 in chat as part of the plan | [b113e6e] |
-| 2026-11-15 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Added the baseline gateway MIL-005, its schedule row, scope coverage, dependency, risk and Gantt entries, the No-Go rule and an open issue; linked the git host milestones of MIL-001 to MIL-004; set the domain to education; reviewed in autonomous mode, not independent | pending |
+| 2026-11-15 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Added the baseline gateway MIL-005, its schedule row, scope coverage, dependency, risk and Gantt entries, the No-Go rule and an open issue; linked the git host milestones of MIL-001 to MIL-004; set the domain to education; reviewed in autonomous mode, not independent | [a579509] |
 
 ---
 
@@ -101,3 +101,4 @@ A No-Go stops later phases until its criteria are met; all dates shift together.
 [MS-130]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-us-states-game/milestone/130
 [MS-131]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-us-states-game/milestone/131
 [MS-535]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-us-states-game/milestone/535
+[a579509]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-us-states-game/commit/a5795093e1d293da9d29fced5cb24621b0a4c5bd

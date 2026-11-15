@@ -9,7 +9,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-11-15 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version; created with the review records of the baseline (autonomous, not independent) | pending |
+| 2026-11-15 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version; created with the review records of the baseline (autonomous, not independent) | [a579509] |
 
 ---
 
@@ -94,3 +94,4 @@ Tracks backward and forward links between the artifact instances of U.S. States 
 [RC-022]: ./reviews/rc-022-milestone-004-baseline.md
 [RC-023]: ./reviews/rc-023-milestone-005.md
 [RC-024]: ./reviews/rc-024-wiki.md
+[a579509]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-us-states-game/commit/a5795093e1d293da9d29fced5cb24621b0a4c5bd

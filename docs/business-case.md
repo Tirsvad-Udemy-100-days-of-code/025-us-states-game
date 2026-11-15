@@ -12,7 +12,7 @@
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
 | 2026-10-13 | Deprecated | Claude (AI) for S01 | AI as stand-in for S01 | Initial version; review RC-001: Go | [b113e6e] |
-| 2026-11-15 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Added objective 5, success criterion 7, a scope item, a risk, an assumption and a constraint exception for the baseline milestone MIL-005; added the link definitions of the cited documents; set the domain to education; reviewed in autonomous mode, not independent | pending |
+| 2026-11-15 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Added objective 5, success criterion 7, a scope item, a risk, an assumption and a constraint exception for the baseline milestone MIL-005; added the link definitions of the cited documents; set the domain to education; reviewed in autonomous mode, not independent | [a579509] |
 
 ---
 
@@ -140,3 +140,4 @@ Proceed — the scope is small, fully specified by the lectures, and low risk.
 [SA-001]: ./stakeholder-analysis.md
 [PP-001]: ./project-plan.md
 [MIL-005]: ./milestones/mil-005-framework-baseline.md
+[a579509]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/025-us-states-game/commit/a5795093e1d293da9d29fced5cb24621b0a4c5bd
